@@ -1,0 +1,11 @@
+prefix=/Users/chrispham/Documents/Data Science/Deep Learning/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/chrispham/Documents/Data Science/Deep Learning/.conda/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
